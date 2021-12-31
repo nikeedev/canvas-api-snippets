@@ -1,4 +1,4 @@
-# canvas-snippets README
+# Canvas API Snippets
 
 
 ## Features
