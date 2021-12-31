@@ -1,0 +1,7 @@
+{
+    "Context 2D": {
+        "prefix": "ctx2d",
+        "body": "const ctx = canvas.getContext('2d');",
+        "description": "This snippet will add 2D Context constant, which are gathered from 'canvas' constant."
+    }
+}
