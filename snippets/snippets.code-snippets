@@ -3,5 +3,10 @@
         "prefix": "ctx2d",
         "body": "const ctx = canvas.getContext('2d');",
         "description": "This snippet will add 2D Context constant, which are gathered from 'canvas' constant."
+    },
+    "Create <canvas> element": {
+        "prefix": "cce",
+        "body": "const canvas = document.createElement('canvas');",
+        "description": "This snippet will create new constant that creates new <canvas> element"
     }
 }
