@@ -4,6 +4,7 @@
     "displayName": "Canvas API snippets",
     "description": "This extension contains Canvas API code snippets for JavaScript",
     "version": "0.1.0",
+    "license": "LICENSE",
     "engines": {
         "vscode": "^1.63.0"
     },
