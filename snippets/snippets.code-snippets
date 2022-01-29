@@ -6,7 +6,7 @@
     },
     "Create <canvas> element": {
         "prefix": "cce",
-        "body": "const canvas = document.createElement('canvas');",
+        "body": "const canvas = document.querySelector('html').appendChild(document.createElement('canvas'));",
         "description": "This snippet will create new constant that creates new <canvas> element"
     },
     "Enable Canvas API on IntelliSense": {
@@ -18,5 +18,10 @@
         "prefix": "canvas-basic-rect",
         "body": "ctx.fillRect(canvas.width/2, canvas.height/2, 10, 10);",
         "description": "This snippet will add code, for creating basic cube in the middle of <canvas> element",
+    },
+    "Basic Canvas API template": {
+        "prefix": "canvas-basic-template",
+        "body": ["/** @type {HTMLCanvasElement} */", "const canvas = document.querySelector('html').appendChild(document.createElement('canvas'));", "const ctx = canvas.getContext('2d');", "ctx.fillRect(canvas.width/2, canvas.height/2, 10, 10);"],
+        "description": "This snippet will add code from a tempelate with all needed things to draw a simple rectangle",
     },
 }
