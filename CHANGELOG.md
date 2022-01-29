@@ -7,3 +7,5 @@
 
 
 ** - v0.1.0: Added another code snippet that will create new <canvas> element when writing 'cce' **
+
+** - Updated! **

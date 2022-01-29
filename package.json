@@ -3,7 +3,7 @@
     "publisher": "nikeedev",
     "displayName": "Canvas API snippets",
     "description": "This extension contains Canvas API code snippets for JavaScript",
-    "version": "1.2",
+    "version": "0.2.0",
     "license": "LICENSE",
     "engines": {
         "vscode": "^1.63.0"
