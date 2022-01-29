@@ -8,5 +8,15 @@
         "prefix": "cce",
         "body": "const canvas = document.createElement('canvas');",
         "description": "This snippet will create new constant that creates new <canvas> element"
-    }
+    },
+    "Enable Canvas API on IntelliSense": {
+        "prefix": "enable-canvas",
+        "body": "/** @type {HTMLCanvasElement} */",
+        "description": "This snippet will add function, that enables IntelliSense for Canvas API"
+    },
+    "Add code for drawing basic rectangle": {
+        "prefix": "canvas-basic-rect",
+        "body": "ctx.fillRect(canvas.width/2, canvas.height/2, 10, 10);",
+        "description": "This snippet will add code, for creating basic cube in the middle of <canvas> element",
+    },
 }
