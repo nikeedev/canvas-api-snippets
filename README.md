@@ -1,5 +1,6 @@
 # Canvas API Snippets
 
+![GitHub package.json version](https://img.shields.io/github/package-json/v/nikeedev/canvas-api-snippets?color=Green&label=Current%20extension%20version&style=flat-square)
 
 ## Features
 This extension, that includes code snippets, helps you make graphics( and maybe games) with Canvas API which are used by HTML and Javascript. 
