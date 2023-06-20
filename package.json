@@ -3,7 +3,7 @@
     "publisher": "nikeedev",
     "displayName": "Canvas API snippets",
     "description": "This extension contains Canvas API code snippets for JavaScript",
-    "version": "0.3.3",
+    "version": "1.0.0",
     "license": "LICENSE",
     "icon": "images/icon.png",
     "engines": {
@@ -11,6 +11,12 @@
     },
     "categories": [
         "Snippets"
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://raw.githubusercontent.com/nikeedev/canvas-api-snippets/main/LICENSE"
+        }
     ],
     "contributes": {
         "snippets": [
@@ -22,6 +28,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/nikeedev/canvas-api-snippets.git"
+        "url": "https://github.com/nikeedev/canvas-api-snippets.git"
     }
 }

@@ -24,4 +24,34 @@
         "body": ["/** @type {HTMLCanvasElement} */", "const canvas = document.querySelector('html').appendChild(document.createElement('canvas'));", "const ctx = canvas.getContext('2d');", "ctx.fillRect(canvas.width/2, canvas.height/2, 10, 10);"],
         "description": "This snippet will add code from a tempelate with all needed things to draw a simple rectangle",
     },
+    "Clear canvas": {
+        "prefix": "clearrect",
+        "body": "ctx.clearRect(0, 0, canvas.width, canvas.height);",
+        "description": "Clears canvas based on the canvas's width and height"
+    },
+    "Game loop": {
+        "prefix": "gameloop",
+        "body": [
+            "function update()",
+            "{",
+            "\t// do something that would repeat each frame",
+            "\t",
+            "\twindow.requestAnimationFrame(update);",
+            "}",
+            "window.requestAnimationFrame(update);"
+        ],
+        "description": "Creates a game loop for doing anything that requires frame by frame update",
+    },
+    "drawrect": {
+        "prefix": "drawrect",
+        "body": "ctx.drawRect(x, y, width, height);"
+    },
+    "strokestyle": {
+        "prefix": "strokestyle",
+        "body": "ctx.strokestyle = color_string;"
+    },
+    "drawimage": {
+        "prefix": "drawimage",
+        "body": "ctx.drawImage(image, x, y);"
+    }
 }
